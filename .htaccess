@@ -1,0 +1,5 @@
+# Pretty Url
+RewriteEngine on
+
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ index.php?module=$1&routes=index [QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?module=$1&routes=$2 [QSA]

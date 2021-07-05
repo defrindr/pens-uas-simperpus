@@ -1,0 +1,10 @@
+{
+    "name": "user/uts_web",
+    "authors": [
+        {
+            "name": "Defri Indra Mahardika",
+            "email": "defrindr@gmail.com"
+        }
+    ],
+    "require": {}
+}
